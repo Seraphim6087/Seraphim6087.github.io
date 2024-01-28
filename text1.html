@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>似乎是文青的小王</title>
+    <style type="text/css">
+    * {
+		margin: 0;
+		padding: 0;
+        box-sizing: border-box;
+	}
+     .wrapper{
+        width: 1200px;
+        margin: 0 auto;
+     }
+     li{
+        list-style: none;
+     }
+     a{
+        text-decoration: none;
+     }
+     .clearfix:before,.clearfix:after{
+        content: "";
+        display: table;
+     }
+     .clearfix:after{
+        clear: both;
+     }
+    body{
+            background-color: white;
+        }
+    .header{
+        height: 200px;
+        background-color: white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .nav{
+        height: 200px;
+        background-color: white;
+        float: left;
+        margin-left: 100px;
+    }
+    h1{
+        float: left;
+    }
+    .banner{
+        height: 420px;
+        background-color: white;
+    }
+    .banner .wrapper{
+        height: 420px; 
+        background-image: url(./school.jpg);     
+    }
+    .banner .left{
+        width: 190px;
+        height: 420px;
+        background-color: rgba(0, 0, 0, 0.3);
+        float: left;
+        padding: 0 20px;
+        line-height: 50px;
+    }
+    .banner .left span{
+        float: right;
+    }
+    .banner .left a{
+        font-size: 14px;
+        color: white;
+    }
+    .banner .left a:hover{
+        color: #00b4ff;
+    }
+    .box{
+        margin-top: 35px;
+    }
+    .box .title{
+        height: 40px;
+        background-color: white;
+    }
+    .box .title h2{
+        float: left;
+        font-size: 20px;
+        color: #494949;
+        font-weight: 400;
+    }
+    .box .title a{
+        float: right;
+        margin-right: 30px;
+        font-size: 12px;
+        color: #a5a5a5;
+    }
+    .box .content li{
+        float: left;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        width: 228px;
+        height: 270px;
+        background-color: white;
+    }
+    .box .content li:nth-child(5n){
+        margin-right: 0;
+    }
+    .box.content li h3{
+        padding: 20px;
+        font-size: 14px;
+        color: #050505;
+        font-weight: 400;
+    }
+    .box .content li p{
+        padding: 12px;
+        font-size: 20px;
+        color: #ff7c2d;
+    }
+    </style>
+</head>
+<body>
+    <div class="header wrapper">
+        <h1>
+            <img src="./logo1.png" alt="喵，图片不见了">
+        </h1>
+        <div class="nav"><img src="./welcom2.png" alt=""></div>
+    </div>
+
+    <div class="banner">
+        <div class="wrapper">
+        <div class="left">
+            <ul>
+                <li><a href="#">校园剪影<span>></span></a></li>
+                <li><a href="#">学习札记<span>></span></a></li>
+                <li><a href="#">团队合作<span>></span></a></li>
+                <li><a href="#">友达趣闻<span>></span></a></li>
+                <li><a href="#">生活碎片<span>></span></a></li>
+                <li><a href="#">科研交流<span>></span></a></li>
+            </ul>
+        </div>
+        </div>
+    </div>
+    <div class="box wrapper clearfix">
+        <div class="title">
+            <h2>个人荣誉</h2>
+            <a href="#">查看全部</a>
+        </div>
+        <div class="content">
+            <ul>
+                <li>
+                    <a href="">
+                        <img src="./reward1.jpg" alt="">
+                        <h3>Robomaster机甲大师</h3>
+                        <p>国家级</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./reward2.jpg" alt="">
+                        <h3>MCM美国数学建模竞赛</h3>
+                        <p>国家级</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./reward3.jpg" alt="">
+                        <h3>IIEC互联网+创新创业大赛</h3>
+                        <p>省部级</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./reward4.jpg" alt="">
+                        <h3>BOE校园创新挑战赛</h3>
+                        <p>省部级</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./reward1.jpg" alt="">
+                        <h3>Merit Student三好学生</h3>
+                        <p>校级</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="box wrapper" style="margin-top: 230px;">
+        <div class="title">
+            <h2>参与项目</h2>
+            <a href="#">查看全部</a>
+        </div>
+        <div class="content">
+            <ul>
+                <li>
+                    <a href="">
+                        <img src="./reward1.jpg" alt="">
+                        <h3>机器人计算机视觉开发</h3>
+                        <p>机器人俱乐部</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./reward2.jpg" alt="">
+                        <h3>数学建模研究和培训</h3>
+                        <p>智能硬件实验室</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./reward3.jpg" alt="">
+                        <h3>微装配技术</h3>
+                        <p>航空动力试验室</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./reward4.jpg" alt="">
+                        <h3>强化学习充电调度</h3>
+                        <p>课题组</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./reward1.jpg" alt="">
+                        <h3>美赛论文</h3>
+                        <p>参赛队伍</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+</html>
